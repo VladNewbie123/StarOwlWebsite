@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { projects, Project } from "@/data/projectsList";
+import { projects} from "@/data/projectsList";
 import type {Language} from "@/data/translations";
 import {translations} from "@/data/translations";
 

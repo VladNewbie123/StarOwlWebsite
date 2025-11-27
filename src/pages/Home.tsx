@@ -3,7 +3,7 @@ import WhatIDo from "@/components/WhatIDo";
 import Projects from "@/components/Projects";
 import WhyStarOwl from "@/components/WhyStarOwl";
 
-const Home = ({ lang }: { lang: string }) => {
+const Home = ({ lang }) => {
     return (
         <>
             <Hero lang={lang} />
