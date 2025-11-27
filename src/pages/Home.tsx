@@ -2,8 +2,13 @@ import Hero from "@/components/Hero";
 import WhatIDo from "@/components/WhatIDo";
 import Projects from "@/components/Projects";
 import WhyStarOwl from "@/components/WhyStarOwl";
+import type { Language } from "@/data/translations";
 
-const Home = ({ lang }) => {
+interface HomeProps {
+    lang: Language;
+}
+
+const Home = ({ lang }: HomeProps) => {
     return (
         <>
             <Hero lang={lang} />
