@@ -158,4 +158,4 @@ export const translations = {
             "that look professional and high-quality.",
 
     },
-};
+} as const;

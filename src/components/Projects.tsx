@@ -1,4 +1,5 @@
-import {Language, translations} from "@/data/translations";
+import type {Language} from "@/data/translations";
+import {translations} from "@/data/translations";
 
 interface ProjectsProps {
     lang: Language;

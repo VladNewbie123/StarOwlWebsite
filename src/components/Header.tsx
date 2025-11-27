@@ -1,5 +1,6 @@
 import {useState} from "react";
-import {Language, translations} from "@/data/translations";
+import type {Language} from "@/data/translations";
+import {translations} from "@/data/translations";
 import {Link} from "react-router-dom";
 
 interface HeaderProps {

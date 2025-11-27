@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { projects, Project } from "@/data/projectsList";
-import {Language, translations} from "@/data/translations";
+import type {Language} from "@/data/translations";
+import {translations} from "@/data/translations";
 
 const categories = ["all", "3d", "book", "code"];
 interface projectProps {
