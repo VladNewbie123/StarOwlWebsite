@@ -1,12 +1,4 @@
-import type {Language} from "@/data/translations";
-import {translations} from "@/data/translations";
-
-interface FooterProps {
-    lang: Language;
-}
-
-const Footer : React.FC<FooterProps> = ({lang}) => {
-    const t = translations[lang];
+const Footer : React.FC = () => {
     return (
         <footer className="py-10 text-center text-gray-400 bg-[#0d1a2d]/90 shadow-inner mt-10">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">

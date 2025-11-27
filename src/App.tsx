@@ -22,7 +22,7 @@ function App() {
                 <Route path="/blog" element={<Blog lang={lang}/>} />
                 <Route path="/about" element={<About lang={lang}/>} />
             </Routes>
-            <Footer lang={lang}/>
+            <Footer/>
         </div>
     );
 }
