@@ -75,30 +75,30 @@ const Header: React.FC<HeaderProps> = ({lang, setLang}) => {
             >
                 <div className="bg-[#0d1a2d]/95 px-6 pb-4 pt-4 space-y-3 border-t border-white/10">
 
-                    <a href="/"
+                    <Link to="/"
                        className="block bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition font-medium">
                         {t.home}
-                    </a>
+                    </Link>
 
-                    <a href="/projectpage"
+                    <Link to="/projectpage"
                        className="block bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition font-medium">
                         {t.projects}
-                    </a>
+                    </Link>
 
-                    <a href="/freelance"
+                    <Link to="/freelance"
                        className="block bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition font-medium">
                         {t.freelance}
-                    </a>
+                    </Link>
 
-                    <a href="/blog"
+                    <Link to="/blog"
                        className="block bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition font-medium">
                         {t.blog}
-                    </a>
+                    </Link>
 
-                    <a href="/about"
+                    <Link to="/about"
                        className="block bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition font-medium">
                         {t.about}
-                    </a>
+                    </Link>
 
                 </div>
             </div>
