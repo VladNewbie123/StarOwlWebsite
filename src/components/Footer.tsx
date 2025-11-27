@@ -12,7 +12,7 @@ const Footer : React.FC = () => {
                 {/* Блок 2: Контакты */}
                 <div>
                     <h3 className="font-semibold mb-2">Contact</h3>
-                    <p className="text-gray-400">Email: <a href="mailto:starowl.3d@gmail.com" className="hover:underline">starowl.3d@gmail.com</a></p>
+                    <p className="text-gray-400">Email: starowl.3d@gmail.com</p>
                 </div>
 
                 {/* Блок 3: Соцсети / Портфолио */}
